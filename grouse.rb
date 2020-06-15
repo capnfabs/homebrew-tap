@@ -2,16 +2,16 @@
 class Grouse < Formula
   desc "A diff tool for Hugo websites."
   homepage "https://github.com/capnfabs/grouse"
-  version "0.1.2"
+  version "0.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/capnfabs/grouse/releases/download/v0.1.2/grouse_0.1.2_Darwin_x86_64.tar.gz"
-    sha256 "3695a42617efe27b0f7d9d301c85abb3b52294d660567af1c61323fd9898f02e"
+    url "https://github.com/capnfabs/grouse/releases/download/v0.2/grouse_0.2_Darwin_x86_64.tar.gz"
+    sha256 "e58cb8e21ada1d0db61cefa14da20045f4805a2249849ad8a5c03bbbb79530ee"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/capnfabs/grouse/releases/download/v0.1.2/grouse_0.1.2_Linux_x86_64.tar.gz"
-      sha256 "43950f623e5f26084e48a5a44dd0fb33929cda71cf3edb14f643a84c2a42e764"
+      url "https://github.com/capnfabs/grouse/releases/download/v0.2/grouse_0.2_Linux_x86_64.tar.gz"
+      sha256 "5336508c9f8fb10d583177eaf30824fe435d2a92e48c384ea4534c57cdb416a4"
     end
   end
 
